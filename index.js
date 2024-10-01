@@ -15,5 +15,3 @@ var x=1
  const e=14
  const f=d*e
  document.write(f)
-
- 
