@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript_day_two</title>
+  </head>
+  <body>
+    <!-- division operator -->
+    <p id="demo"></p>
+
+    <script>
+    let x1 = 5;
+    let y1 = 2;
+    let z1= x1 / y1;
+    document.getElementById("demo").innerHTML = z1;
+    </script>
+
+    <!-- modulus operator -->
+     
+<p id="demo1"></p>
+
+<script>
+let xa = 5;
+let ya = 2;
+let za = xa % ya;
+document.getElementById("demo1").innerHTML = za;
+</script>
+
+<!-- increment ++ operator -->
+ <!-- decrement -- operator -->
+<p id="demoinc"></p>
+
+<script>
+let xi = 5;
+let yd=9;
+xi++;
+yd--;
+
+let zi = xi;
+let wd=yd;
+
+document.getElementById("demoinc").innerHTML = zi;
+document.write(wd);
+</script>
+<!--Exponentiation -->
+<button type="button" onclick="document.write(5 ** 6)">Try it</button>
+
+    <!-- assignment operators -->
+    <p id="demoas"></p>
+
+    <script>
+    let text = "Hello";
+    text += " World";
+    document.getElementById("demoas").innerHTML = text;
+    </script>
+    <!-- subtraction operators -->
+    <p id="demosub"></p>
+
+    <script>
+    let sub = 10;
+    sub -= 9;
+    document.getElementById("demosub").innerHTML = "Value of sub is: " + sub;
+    </script>
+<!-- Exponentiation assignment operators -->
+    <p id="demoexp"></p>
+    <script>
+    let exp = 10;
+    exp **= 6;
+    document.getElementById("demoexp").innerHTML = "Value of exp is: " + exp;
+    </script>
+    
+    </body>
+    <script src="index.js"></script>
+  </body>
+</html>
